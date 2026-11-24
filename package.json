@@ -1,0 +1,22 @@
+{
+  "name": "syllable-voice",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "哔哔啵啵 · 动静工坊：把一句话变成小人说话声的可调音色合成器（零依赖、零素材、离线可用）",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Warspite-www/syllable-voice.git"
+  },
+  "keywords": [
+    "audio",
+    "synthesizer",
+    "web-audio",
+    "procedural-generation",
+    "animalese"
+  ],
+  "scripts": {
+    "start": "python -m http.server 5173"
+  }
+}
